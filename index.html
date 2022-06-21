@@ -1,0 +1,153 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./dist/output.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOV</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body, input, select, textarea, button {
+            border: none;
+            outline: none;
+        }
+
+        body{
+            font: 400 1rem;
+
+            font-family: "poppins" sans-serif;
+
+        
+        }
+
+        div > h2{
+            font-weight: 500;
+        }
+
+        li{
+            margin-right: 0.5rem;
+            font-weight: 400;
+        }
+        li:hover{
+            color: #003
+            
+        }  
+
+
+        li{
+            cursor: pointer;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+
+    <header class="w-full h-20  bg-slate-900 ">
+        <div class="w-4/5 m-auto h-20 flex items-center justify-between">
+            <div>
+                <h2 class="text-2xl text-white">GOV | BI CONSULTAS</h2>
+            </div>
+            <nav>
+                <ul class="flex text-lg text-white">
+                   <li class=""><a href="#">Home</a></li>
+                   <li><a href="#">Sobre</li></a></li>
+                   <li><a href="#">Contact</a></li>     
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="bg-blue-900 w-full h-screen">
+        <div class="w-2/3 h-8  m-auto relative top-10 p-4">
+            <div class="flex items-center justify-center w-full mt-4">
+                <input class="p-2 rounded-md  w-1/2 mr-2" type="text" name="" id="" placeholder="Digite seu número do BI">
+                <button class="bg-slate-900 text-white font-normal p-2 w-40 rounded-sm">Pesquisar</button>
+            </div>
+
+            
+<div class="relative overflow-x-auto shadow-md sm:rounded-lg mt-6">
+    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3">
+                    Nº BI
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Primeiro Nome
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Ultimo nome
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Genero
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Data De Nascimento
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Morada
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Provincía
+                </th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="border-b dark:bg-gray-800 dark:border-gray-700 odd:bg-white even:bg-gray-50 odd:dark:bg-gray-800 even:dark:bg-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                  
+                </th>
+                <td class="px-6 py-4">
+                   
+                </td>
+                <td class="px-6 py-4">
+                 
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 text-right">
+               
+                </td>
+                <td class="px-6 py-4 text-right">
+                     
+                 </td>
+                 <td class="px-6 py-4 text-right">
+                   
+                 </td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+            </div>
+
+        </div>
+    </main>
+
+
+    
+    
+</body>
+</html>
