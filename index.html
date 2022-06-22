@@ -55,12 +55,14 @@
             cursor: pointer;
             font-weight: 500;
         }
-    </style>
+    </style> 
+     <script defer src="./script.js"></script>
+
 </head>
 <body>
 
 
-    <header class="w-full h-20  bg-slate-900 ">
+    <header class="w-full h-20  sm:bg-slate-900 ">
         <div class="w-4/5 m-auto h-20 flex items-center justify-between">
             <div>
                 <h2 class="text-2xl text-white">GOV | BI CONSULTAS</h2>
@@ -78,8 +80,8 @@
     <main class="bg-blue-900 w-full h-screen">
         <div class="w-2/3 h-8  m-auto relative top-10 p-4">
             <div class="flex items-center justify-center w-full mt-4">
-                <input class="p-2 rounded-md  w-1/2 mr-2" type="text" name="" id="" placeholder="Digite seu número do BI">
-                <button class="bg-slate-900 text-white font-normal p-2 w-40 rounded-sm">Pesquisar</button>
+                <input id="txt-numeroBi" class="p-2 rounded-md  w-1/2 mr-2" type="text" name="" id="" placeholder="Digite seu número do BI">
+                <button id="btn-search" class="bg-slate-900 text-white font-normal p-2 w-40 rounded-sm">Pesquisar</button>
             </div>
 
             
@@ -113,27 +115,29 @@
         </thead>
         <tbody>
             <tr class="border-b dark:bg-gray-800 dark:border-gray-700 odd:bg-white even:bg-gray-50 odd:dark:bg-gray-800 even:dark:bg-gray-700">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  
-                </th>
-                <td class="px-6 py-4">
+                
+                <td id="id" class="px-6 py-4">
                    
                 </td>
-                <td class="px-6 py-4">
+                <td id="nome" class="px-6 py-4">
                  
                 </td>
-                <td class="px-6 py-4">
+                <td id="sobrenome" class="px-6 py-4">
                     
                 </td>
-                <td class="px-6 py-4 text-right">
+                <td id="genero" class="px-6 py-4 text-right">
                
                 </td>
-                <td class="px-6 py-4 text-right">
+                <td id="data" class="px-6 py-4 text-right">
                      
                  </td>
-                 <td class="px-6 py-4 text-right">
+                 <td id="morada" class="px-6 py-4 text-right">
                    
                  </td>
+
+                 <td id="provincia" class="px-6 py-4 text-right">
+                   
+                </td>
 
             </tr>
         </tbody>
@@ -147,7 +151,7 @@
     </main>
 
 
-    
-    
+
+   
 </body>
 </html>
